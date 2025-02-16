@@ -12,22 +12,9 @@
 ## 🏆GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=kiet1234567890694&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### 😂Random Dev Meme
-<img id="memeImg" width="512px"/>
-<button onclick="getMeme()">Lấy Meme</button>
+### 😂 Random Dev Meme
+![Meme](https://meme-api.com/gimme)
 
-<script>
-async function getMeme() {
-    const memes = [
-        "https://i.imgflip.com/30b1gx.jpg", // "Drake Hotline Bling"
-        "https://i.imgflip.com/26am.jpg",   // "Distracted Boyfriend"
-        "https://i.imgflip.com/1bij.jpg"    // "Two Buttons"
-    ];
-    const randomIndex = Math.floor(Math.random() * memes.length);
-    document.getElementById("memeImg").src = memes[randomIndex];
-}
-getMeme();
-</script>
 
 
 
