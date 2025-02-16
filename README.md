@@ -12,22 +12,20 @@
 ## 🏆GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=kiet1234567890694&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### ✍️Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+### 😂Random Dev Meme
 <img id="memeImg" width="512px"/>
 <button onclick="getMeme()">Lấy Meme</button>
 
 <script>
 async function getMeme() {
-    try {
-        const response = await fetch("https://meme-api.com/gimme");
-        const data = await response.json();
-        document.getElementById("memeImg").src = data.url;
-    } catch (error) {
-        console.error("Lỗi khi lấy meme:", error);
-    }
+    const response = await fetch("https://meme-api.com/gimme");
+    const data = await response.json();
+    document.getElementById("memeImg").src = data.url;
 }
 getMeme();
 </script>
+
+---
+[![](https://visitcount.itsvg.in/api?id=kiet1234567890694&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
