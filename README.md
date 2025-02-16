@@ -18,14 +18,15 @@
 
 <script>
 async function getMeme() {
-    const response = await fetch("https://meme-api.com/gimme");
-    const data = await response.json();
-    document.getElementById("memeImg").src = data.url;
+    try {
+        const response = await fetch("https://meme-api.com/gimme");
+        const data = await response.json();
+        document.getElementById("memeImg").src = data.url;
+    } catch (error) {
+        console.error("Lỗi khi lấy meme:", error);
+    }
 }
-getMeme();
+getMeme(); // Lấy meme khi trang load
 </script>
-
----
-[![](https://visitcount.itsvg.in/api?id=kiet1234567890694&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
