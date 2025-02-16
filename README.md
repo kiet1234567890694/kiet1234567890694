@@ -12,8 +12,8 @@
 ## 🏆GitHub Trophies
 ![](https://github-trophies.vercel.app/?username=kiet1234567890694&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-### 😂 Random Dev Meme  
-![Meme](https://apimeme.com/meme?meme=Distracted-Boyfriend&top=Code+Review&bottom=Stack+Overflow)
+### 😂 Dev Meme
+<img src="https://i.imgflip.com/30b1gx.jpg" width="512px"/>
 
 
 
