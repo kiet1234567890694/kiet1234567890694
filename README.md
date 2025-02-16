@@ -18,15 +18,16 @@
 
 <script>
 async function getMeme() {
-    try {
-        const response = await fetch("https://meme-api.com/gimme");
-        const data = await response.json();
-        document.getElementById("memeImg").src = data.url;
-    } catch (error) {
-        console.error("Lỗi khi lấy meme:", error);
-    }
+    const memes = [
+        "https://i.imgflip.com/30b1gx.jpg", // "Drake Hotline Bling"
+        "https://i.imgflip.com/26am.jpg",   // "Distracted Boyfriend"
+        "https://i.imgflip.com/1bij.jpg"    // "Two Buttons"
+    ];
+    const randomIndex = Math.floor(Math.random() * memes.length);
+    document.getElementById("memeImg").src = memes[randomIndex];
 }
-getMeme(); // Lấy meme khi trang load
+getMeme();
 </script>
+
 
 
